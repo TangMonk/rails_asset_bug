@@ -1,0 +1,3 @@
+Rails generaete uncorrect assets prefix with set `config.assets.compile = false`
+
+It always generate asset without 'assets' prefix, even though I set `config.assets.prefix = '/assets'`
